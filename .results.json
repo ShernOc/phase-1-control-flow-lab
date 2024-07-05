@@ -2,12 +2,12 @@
   "stats": {
     "suites": 4,
     "tests": 9,
-    "passes": 8,
+    "passes": 9,
     "pending": 0,
-    "failures": 1,
-    "start": "2024-07-04T16:57:25.498Z",
-    "end": "2024-07-04T16:57:25.817Z",
-    "duration": 319
+    "failures": 0,
+    "start": "2024-07-05T21:02:48.238Z",
+    "end": "2024-07-05T21:02:49.133Z",
+    "duration": 895
   },
   "tests": [
     {
@@ -34,15 +34,9 @@
     {
       "title": "does not allow rides over 2500 feet",
       "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
-        "showDiff": true,
-        "actual": "I will gladly take your thirty bucks.",
-        "expected": "No can do.",
-        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:18:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns \"Ok, sounds good.\" when the city is NYC",
@@ -81,21 +75,7 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "does not allow rides over 2500 feet",
-      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected 'I will gladly take your thirty bucks.' to equal 'No can do.'",
-        "showDiff": true,
-        "actual": "I will gladly take your thirty bucks.",
-        "expected": "No can do.",
-        "stack": "AssertionError: expected 'I will gladly take your thirty bucks.' to equal 'No can do.'\n    at Context.<anonymous> (test/indexTest.js:18:46)\n    at process.processImmediate (node:internal/timers:478:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "gives customers a free sample if the ride is less than or equal to 400 feet",
@@ -114,6 +94,13 @@
     {
       "title": "charges 30 dollars for a distance over 2000 feet",
       "fullTitle": "index.js scuberGreetingForFeet() charges 30 dollars for a distance over 2000 feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not allow rides over 2500 feet",
+      "fullTitle": "index.js scuberGreetingForFeet() does not allow rides over 2500 feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
